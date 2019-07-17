@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>筛选</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="http://page-bucket.oiaqye7985.com/sybModule/m1/global.css">
+	<link rel="stylesheet" href="css/myPagination.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+<!-- 头部导航 -->
+	<div id="head"  class="home-top"></div>
+<!-- 头部搜索 -->
+	<div class="search-p">
+		<div class="w">
+	      <div class="logo">
+	        <img src="images/t_logo.png" alt="">
+	      </div>
+	      <div class="btn">全网询价</div>
+	      <div class="search-p-l">
+	      	<div class="tab"><span class="blue">产品</span><span>企业</span></div>
+	        <div class="input">
+	          <img src="images/bot-san.png" alt="">
+	         <input type="text" class="texts" placeholder="请输入搜索关键词">
+	          <input type="submit" value="搜索" class="search">
+	        </div>
+	        <div class="hot"><span>热门搜索：</span><ul><li><a href="#">不锈钢</a><i></i></li><li><a href="#">不锈钢</a><i></i></li><li><a href="#">不锈钢</a><i></i></li></ul></div>
+	      </div>
+	    </div>
+	</div>
+	<div class="content">
+		<div class="w clearFix">
+			<div class="path">当前位置：<a href="#">生意帮</a> > <a href="#">产品</a> > <a href="#">印刷</a></div>
+
+			
+			<!-- 排序 -->
+			<div class="contentProducts">
+				<div class="left-content left-content-none">
+					<div class="none-add">
+					<div class="img-none"><img src="images/icon1@2x.png" alt=""></div>
+					<div class="mid-none">
+						<div class="titleN">对不起，没有找到“<span class="red" style="color: red;">xxxxx</span>”的相关产品</div>
+						<div class="oneLi">1.修改或简化输入词，尝试其他相关词。</div>
+						<div class="oneLi">2.直接发布全网询价，快速获得生意帮商家报价。</div>
+					</div>
+					<div class="right-none"><a href="#" target="_blank">全网询价</a></div>
+				</div>
+				<div class="bottom-pros bottom-none">
+				<div class="title-add-none">精品推荐</div>
+					<ul class='clearFix'>
+						<li>
+							<div class="imgPro"><img src="images/pic1.png" alt="" class="protopImg"></div>
+							<div class="price"><i>￥</i>3.65/千克起</div>
+							<div class="name">半面罩</div>
+							<div class="company">浙江宇按消防特钢有限公司</div>
+							<div class="last"><img src="images/iconpro.png" alt="">浙江省  苏州市</div>
+						</li>
+						<li>
+							<div class="imgPro"><img src="images/company3.png" alt="" class="protopImg"></div>
+							<div class="price"><i>￥</i>3.65/千克起</div>
+							<div class="name">半面罩</div>
+							<div class="company">浙江宇按消防特钢有限公司</div>
+							<div class="last"><img src="images/iconpro.png" alt="">浙江省  苏州市</div>
+						</li>
+						<li>
+							<div class="imgPro"><img src="images/company3.png" alt="" class="protopImg"></div>
+							<div class="price"><i>￥</i>3.65/千克起</div>
+							<div class="name">半面罩</div>
+							<div class="company">浙江宇按消防特钢有限公司</div>
+							<div class="last"><img src="images/iconpro.png" alt="">浙江省  苏州市</div>
+						</li>
+						<li>
+							<div class="imgPro"><img src="images/pic1.png" alt="" class="protopImg"></div>
+							<div class="price"><i>￥</i>3.65/千克起</div>
+							<div class="name">半面罩</div>
+							<div class="company">浙江宇按消防特钢有限公司</div>
+							<div class="last"><img src="images/iconpro.png" alt="">浙江省  苏州市</div>
+						</li>
+						<li>
+							<div class="imgPro"><img src="images/pic1.png" alt="" class="protopImg"></div>
+							<div class="price"><i>￥</i>3.65/千克起</div>
+							<div class="name">半面罩</div>
+							<div class="company">浙江宇按消防特钢有限公司</div>
+							<div class="last"><img src="images/iconpro.png" alt="">浙江省  苏州市</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+			</div>
+		<!-- <div class="fenye">
+			<ul class="clearFix">
+				<li>上一页</li>
+				<li class="active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>下一页</li>
+			</ul>
+		</div> -->
+		<!-- <div id="pagination" class="pagination fenye"></div> -->
+	</div>
+	
+<!--底部-->
+     <div id="foot" class="foot_page"></div>
+<body>
+	<script src="http://page-bucket.oiaqye7985.com/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js"></script>
+	<script src="js/head.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/myPagination.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      paginationClickable: true,
+      speed: 1000,
+      loop: true,
+      autoplay:1500
+    });
+    new Page({
+        id: 'pagination',
+        pageTotal: 50, //必填,总页数
+        pageAmount: 10,  //每页多少条
+        dataTotal: 500, //总共多少条数据
+        curPage:1, //初始页码,不填默认为1
+        pageSize: 5, //分页个数,不填默认为5
+        showPageTotalFlag:true, //是否显示数据统计,不填默认不显示
+        showSkipInputFlag:true, //是否支持跳转,不填默认不显示
+        getPage: function (page) {
+            //获取当前页数
+           console.log(page);
+        }
+    })
+  </script>
+</body>
+</html>
